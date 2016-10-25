@@ -39,10 +39,6 @@ class cclient
 				//accept the data from server
 				String msgin=din.readUTF();
 				System.out.println("Server: "+msgin+"\n");
-				if(msgin.equals("Sorry.... U cannot connect now due to traffic. Try Again Later. :)")){
-					f=1;
-					break;
-				}
 				
 				dout.flush();
 			}
